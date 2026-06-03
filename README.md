@@ -34,7 +34,8 @@ El análisis completo está en un único notebook dividido en cuatro fases:
 ### 🔍 Fase 1 – Exploración y Limpieza
 Antes de analizar nada, hay que entender qué tenemos entre manos.
 Se unen los dos datasets, se detectan nulos, se eliminan salarios imposibles (sí, había negativos)
-y se aseguran los tipos de datos correctos.
+y se descubre que el nivel educativo College no tiene ni un solo dato de salario real —
+el 100% de sus valores son nulos. La imputación requiere una estrategia específica por grupo.
 
 ### 📊 Fase 2 – Análisis Estadístico
 Medias, medianas, modas, outliers y correlaciones.
